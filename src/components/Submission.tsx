@@ -19,7 +19,7 @@ export const Submission = () => {
             answer.audioRecordings.map(async (recording) => {
               const storageRef = ref(
                 storage,
-                `tests/${Date.now()}-q${questionIndex}-${recording.id}.webm`
+                `experten/${Date.now()}-q${questionIndex}-${recording.id}.webm`
               );
               await uploadBytes(storageRef, recording.blob);
               const url = await getDownloadURL(storageRef);
@@ -51,7 +51,7 @@ export const Submission = () => {
         };
 
         // Daten in Firestore speichern
-        await addDoc(collection(db, 'tests'), interviewData);
+        await addDoc(collection(db, 'experten'), interviewData);
         setIsSubmitted(true);
       } catch (error) {
         console.error('Error submitting interview:', error);
