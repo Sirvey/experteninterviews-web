@@ -29,7 +29,7 @@ export interface InterviewState {
 }
 
 export const questions = [
-  "Können Sie uns kurz Ihr Unternehmen und dessen Zielsetzung vorstellen?",
+  "Können Sie uns kurz Ihr Business und dessen Zielsetzung vorstellen?",
   "Was hat Sie persönlich dazu motiviert, ein Social Business zu gründen?",
   "Welche spezifischen Herausforderungen haben Sie bei der Gründung und im laufenden Betrieb Ihrers Business erlebt?",
   "Inwiefern spielt Nachhaltigkeit (sozial, ökologisch und ökonomisch) eine Rolle für Ihren Erfolg?",
