@@ -75,13 +75,13 @@ export const Question = () => {
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Zusätzliche Notizen (optional)
+              Schriftliche Antwort / Notizen
             </label>
             <textarea
               value={currentAnswer.notes}
               onChange={(e) => updateNotes(questionIndex, e.target.value)}
               className="w-full h-32 rounded-lg border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-              placeholder="Hier Notizen hinzufügen..."
+              placeholder="Hier Text hinzufügen..."
             />
           </div>
 
