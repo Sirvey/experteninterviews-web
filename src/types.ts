@@ -30,7 +30,7 @@ export interface InterviewState {
 
 export const questions = [
   "Können Sie kurz sich, Ihr Unternehmen und dessen Zielsetzung vorstellen?",
-  "Was hat Sie persönlich dazu motiviert, ein Sozial orientiertes Unternehmem zu gründen?",
+  "Was hat Sie persönlich dazu motiviert, mit Ihrem Unternehmen sozial orientiert zu handeln?",
   "Welche spezifischen Herausforderungen haben Sie bei der Gründung und im laufenden Betrieb Ihres Unternehmens erlebt?",
   "Inwiefern spielt Nachhaltigkeit (sozial, ökologisch und ökonomisch) eine Rolle für Ihren Erfolg?",
   "Wie gehen Sie mit Zielkonflikten zwischen ökonomischen und sozialen Zielen um?",
